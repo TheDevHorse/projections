@@ -1,6 +1,6 @@
 # Projections 
 
-This Spring Boot application demonstrates the use of JPA projections for efficient data management and retrieval. Projections in Spring Data JPA enable fetching only the fields you need, optimizing query performance and reducing memory overhead. The application manages athlete data, including nested address information, through well-defined projection interfaces.
+This Spring Boot application demonstrates the use of JPA projections for efficient data management and retrieval. Projections in Spring Data JPA enable fetching only the fields you need, optimizing query performance and reducing memory overhead. 
 
 ---
 
