@@ -10,7 +10,7 @@ public interface AthleteRepository extends Repository<AthleteEntity, Long> {
 
     Optional<AthleteResponse> findByAthleteId(String athleteId);
 
-    List<AthleteResponse> findAll();
+    List<AthleteResponse> findAllBy();
 
     void save(AthleteEntity athleteEntity);
 
