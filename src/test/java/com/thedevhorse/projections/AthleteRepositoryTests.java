@@ -38,7 +38,7 @@ class AthleteRepositoryTests {
     }
 
     @Test
-    void givenAthleteIdValid_whenFindByAthleteId_thenAthleteResponseIsReturned() {
+    void givenValidAthleteId_whenFindByAthleteId_thenAthleteResponseIsReturned() {
         // Given
         String athleteId = "PT1";
 
@@ -50,7 +50,7 @@ class AthleteRepositoryTests {
     }
 
     @Test
-    void givenAthleteIdValid_whenFindByAthleteId_thenReturnsCurrentResult() {
+    void givenValidAthleteId_whenFindByAthleteId_thenReturnsCurrentResult() {
         // Given
         String athleteId = "PT1";
 
