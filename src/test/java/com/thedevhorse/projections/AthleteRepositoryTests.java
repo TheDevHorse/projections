@@ -38,7 +38,7 @@ class AthleteRepositoryTests {
     }
 
     @Test
-    void givenAthleteIdValida_whenFindByAthleteId_thenAthleteResponseIsReturned() {
+    void givenAthleteIdValid_whenFindByAthleteId_thenAthleteResponseIsReturned() {
         // Given
         String athleteId = "PT1";
 
